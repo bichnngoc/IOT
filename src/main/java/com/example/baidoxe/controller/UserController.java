@@ -81,7 +81,6 @@ public class UserController {
                 NganHangDTO addNganHang = nganHangService.addNganHang(nganHangDTO); // Add the new NganHang
                 usersDTO.setNganHangId(addNganHang.getId()); // Set the ID of the newly created NganHang in the user
             }
-
             // Save the user
             UsersDTO addedUser = userService.addUser(usersDTO);
 

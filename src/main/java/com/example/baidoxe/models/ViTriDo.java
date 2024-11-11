@@ -19,7 +19,7 @@ public class ViTriDo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer Id;
     private Integer Status;
-    private String ChiTietViTri;
+    private Integer ChiTietViTri;
     @OneToMany(mappedBy = "viTriDo",  cascade = CascadeType.ALL)
     private Set<DatCho> datChos;
 

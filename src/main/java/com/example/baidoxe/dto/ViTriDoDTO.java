@@ -14,4 +14,5 @@ public class ViTriDoDTO {
     private Integer BaiDo_Id;
     private Integer Status;
     private Integer ChiTietViTri;
+    private String TenBaiDo;
 }

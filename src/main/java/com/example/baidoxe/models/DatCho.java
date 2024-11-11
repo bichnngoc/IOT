@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Set;
 
 @Data
@@ -19,8 +20,8 @@ public class DatCho {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer Id;
-    private LocalDate DangKyGioVao;
-    private LocalDate DangKyGioRa;
+    private LocalDateTime DangKyGioVao;
+    private LocalDateTime DangKyGioRa;
     private Integer Status;
     private String MaQR;
 
